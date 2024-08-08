@@ -105,4 +105,11 @@ app.doc("/doc", {
 
 app.get("/docs", swaggerUI({ url: "/doc" }));
 
+// default route
+app.get("/", (c) => {
+  const welcomeText = ["Welcome to Hono Swagger!", "Try /docs to see the docs."]
+    .join("\n");
+  return c.text(welcomeText);
+});
+
 export default app;
