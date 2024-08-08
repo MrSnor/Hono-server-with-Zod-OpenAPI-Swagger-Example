@@ -12,4 +12,4 @@ deno task serve
 
 ## API docs
 
-After starting the server, go to http://localhost:3000/docs to see the API docs in Swagger UI.
+After starting the server, go to /docs to see the API docs in Swagger UI.
