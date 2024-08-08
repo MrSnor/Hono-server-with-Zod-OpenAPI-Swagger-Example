@@ -1,0 +1,101 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/assert@1": "jsr:@std/assert@1.0.0",
+      "jsr:@std/internal@^1.0.1": "jsr:@std/internal@1.0.1",
+      "npm:@hono/swagger-ui@^0.4.0": "npm:@hono/swagger-ui@0.4.0_hono@4.4.8",
+      "npm:@hono/zod-openapi@^0.15.1": "npm:@hono/zod-openapi@0.15.1_hono@4.4.8_zod@3.23.8"
+    },
+    "jsr": {
+      "@std/assert@1.0.0": {
+        "integrity": "0e4f6d873f7f35e2a1e6194ceee39686c996b9e5d134948e644d35d4c4df2008",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.1"
+        ]
+      },
+      "@std/internal@1.0.1": {
+        "integrity": "6f8c7544d06a11dd256c8d6ba54b11ed870aac6c5aeafff499892662c57673e6"
+      }
+    },
+    "npm": {
+      "@asteasolutions/zod-to-openapi@7.1.1_zod@3.23.8": {
+        "integrity": "sha512-lF0d1gAc0lYLO9/BAGivwTwE2Sh9h6CHuDcbk5KnGBfIuAsAkDC+Fdat4dkQY3CS/zUWKHRmFEma0B7X132Ymw==",
+        "dependencies": {
+          "openapi3-ts": "openapi3-ts@4.3.3",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "@hono/swagger-ui@0.4.0_hono@4.4.8": {
+        "integrity": "sha512-8lF+dexzgV2HRM1R/gf49E5djroq4jVMYMSwLkSF9pT0I6sYhuqirFDCRFrBtbbLCBsKzw6f2MF5rS+WY3d7Nw==",
+        "dependencies": {
+          "hono": "hono@4.4.8"
+        }
+      },
+      "@hono/zod-openapi@0.15.1_hono@4.4.8_zod@3.23.8": {
+        "integrity": "sha512-2Un3D5xD1j4tIvUwzQ/XkB6xwrEA0Ne23TRjB8UVw0PgUWzsB3xiB8Hl/y2ZEMfcIfrA15/ga4P6Bkct8uYaLg==",
+        "dependencies": {
+          "@asteasolutions/zod-to-openapi": "@asteasolutions/zod-to-openapi@7.1.1_zod@3.23.8",
+          "@hono/zod-validator": "@hono/zod-validator@0.2.2_hono@4.4.8_zod@3.23.8",
+          "hono": "hono@4.4.8",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "@hono/zod-validator@0.2.2_hono@4.4.8_zod@3.23.8": {
+        "integrity": "sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==",
+        "dependencies": {
+          "hono": "hono@4.4.8",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "hono@4.4.8": {
+        "integrity": "sha512-eewnSgTzdWgFVn97kPV24h+9UVNUQ+9mj6IRxr7dBseTaTBSHtFo/T/vRNcqJkQFysVoXyecflr3Xe/fdvzEpQ==",
+        "dependencies": {}
+      },
+      "openapi3-ts@4.3.3": {
+        "integrity": "sha512-LKkzBGJcZ6wdvkKGMoSvpK+0cbN5Xc3XuYkJskO+vjEQWJgs1kgtyUk0pjf8KwPuysv323Er62F5P17XQl96Qg==",
+        "dependencies": {
+          "yaml": "yaml@2.4.5"
+        }
+      },
+      "yaml@2.4.5": {
+        "integrity": "sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==",
+        "dependencies": {}
+      },
+      "zod@3.23.8": {
+        "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://esm.sh/@hono/zod-openapi@0.15.1": "a9a2f97f43c27f571a19485ad68f5a62ad2edeade838ee0bad6e231d74b8fc36",
+    "https://esm.sh/v135/@asteasolutions/zod-to-openapi@7.1.1/denonext/zod-to-openapi.mjs": "7619def6e692f3f77993457cfce6961cf2e3e9276233b04c01814993835ef4a7",
+    "https://esm.sh/v135/@hono/zod-openapi@0.15.1/denonext/zod-openapi.mjs": "a2779da2235b7cbc883a92cc0ba870b359490bd72147cc3f75c851d4c6345c44",
+    "https://esm.sh/v135/@hono/zod-validator@0.2.2/denonext/zod-validator.mjs": "732780ce2d70bfb0f0b65ce25982b7bb5795ae77fd7f52b6809c70f30b520fc3",
+    "https://esm.sh/v135/hono@4.4.2/denonext/cookie.js": "a531ce1c9a4244655cefb597ce8d749c5d9f2c71e24c2a3bb93c00245101cccb",
+    "https://esm.sh/v135/hono@4.4.2/denonext/http-exception.js": "472f1d13cd4b9586a201a8d42e8c5c0ba29846459ca053131cdb2f16fcec446f",
+    "https://esm.sh/v135/hono@4.4.2/denonext/utils/buffer.js": "bcf65bd089ea3bb30a2eab8da9c57e113b6814d15a796d6d453dcb731ec076d2",
+    "https://esm.sh/v135/hono@4.4.2/denonext/utils/cookie.js": "4df0d8b8bb6262e489e86746b08ffd2621b404b31b46f669c321606f5d9c0ac7",
+    "https://esm.sh/v135/hono@4.4.2/denonext/utils/crypto.js": "a283fa63b3f8dd160b74d281d24253852a7af88a514dfee06b5c15c251ffe148",
+    "https://esm.sh/v135/hono@4.4.2/denonext/utils/url.js": "c433f59a9493b10463203f0156a5099b10f87db0398642885561da8cb2d0dc48",
+    "https://esm.sh/v135/hono@4.4.2/denonext/validator.js": "20d2d25bdfd08bc662438ed6cb3aa1d855245a991b46bc587bf31e87ac9856f9",
+    "https://esm.sh/v135/hono@4.5.4/denonext/hono-base.js": "496be09dd3fdf304544b56c0addf174631df14d84a774ca5a1f4e4678eb228e6",
+    "https://esm.sh/v135/hono@4.5.4/denonext/hono.mjs": "c3a3e89e592f87aab667ab13ce5f255ce6e9cd1d7791656938fdde839f4d9169",
+    "https://esm.sh/v135/hono@4.5.4/denonext/router.js": "3ee49dfa07e9773fc5dd45b6582a5fe324b50f6ea22ecdbc52ba3342022e6980",
+    "https://esm.sh/v135/hono@4.5.4/denonext/router/reg-exp-router.js": "268401e404a0397cbff8164fa5a1f41adb818c5b855df973e304dc73bd814a14",
+    "https://esm.sh/v135/hono@4.5.4/denonext/router/smart-router.js": "b56c248b2296a4dd1f4b06bc52f49a9420470ab8cb033c639afd7fa2a796275f",
+    "https://esm.sh/v135/hono@4.5.4/denonext/router/trie-router.js": "c5183e10fb2207e8e2e2374746596cc307ffe61cd16c66b043633ea98db0f900",
+    "https://esm.sh/v135/hono@4.5.4/denonext/utils/body.js": "2bf9d37e11d51fd98bc9d7c3453e785f36b8cfa13b398962bc85a759450123db",
+    "https://esm.sh/v135/hono@4.5.4/denonext/utils/html.js": "9cef9940723e7da31674836417e67054edd701b68c77639801f36008eb61139f",
+    "https://esm.sh/v135/hono@4.5.4/denonext/utils/url.js": "36d3daff4964130c716cba44d74c91673621d672112b51f179f147e4c1ac2a20",
+    "https://esm.sh/v135/zod@3.23.8/denonext/zod.mjs": "b3707b03ddc01aab11b740436ab23c0fcc8d15fed072be20085c1fd611016b61"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:@hono/swagger-ui@^0.4.0",
+      "npm:@hono/zod-openapi@^0.15.1"
+    ]
+  }
+}
